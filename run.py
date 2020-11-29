@@ -1,10 +1,3 @@
-"""
-The Tornado Framework
-By Ali Pesaranghader
-University of Ottawa, Ontario, Canada
-E-mail: apesaran -at- uottawa -dot- ca / alipsgh -at- gmail -dot- com
-"""
-
 from data_structures.attribute_scheme import AttributeScheme
 from classifier.__init__ import *
 from drift_detection.__init__ import *
@@ -14,10 +7,8 @@ from tasks.__init__ import *
 
 project_name = "airlines"
 
-# 1. Creating a project
 project = Project("projects", f"{project_name}")
 
-# 2. Loading an arff file
 labels, attributes, stream_records = ARFFReader.read(
     f"data_streams/{project_name}.arff")
 attributes_scheme = AttributeScheme.get_scheme(attributes)

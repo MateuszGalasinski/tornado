@@ -23,13 +23,6 @@ Now your workspace is prepared. You may run the program with:
 Airlines:
 > https://sourceforge.net/projects/moa-datastream/files/Datasets/Classification/airlines.arff.zip/download
 
-elecNormNew.arff -> The dataset holds information of the Australian New South Wales Electricity Market:
-> https://moa.cms.waikato.ac.nz/datasets/
-
-
-
-
-
 
 ### Citation
 
@@ -44,5 +37,3 @@ Pre-print available at: http://iwera.ir/~ali/papers/ds2016.pdf, DOI: https://doi
 
 <br/>
 <br/>
-
-<sub>Ali Pesaranghader © 2020 | MIT License</sub>
